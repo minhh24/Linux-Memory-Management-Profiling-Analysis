@@ -12,7 +12,7 @@ Mục tiêu cốt lõi là minh họa tầm quan trọng sống còn của việ
 * **Phân tích so sánh:** Đối chiếu hiệu suất và hành vi hệ thống giữa phiên bản mã nguồn "không an toàn" (unsafe) và "an toàn" (safe) để thấy rõ tác động của việc quản lý bộ nhớ.
 
 ## Công nghệ sử dụng
-* **Ngôn ngữ:** C (Standard C99/C11)
+* **Ngôn ngữ:** C 
 * **Hệ điều hành:** Linux (Ubuntu / Raspberry Pi OS)
 * **Trình biên dịch:** GCC (GNU Compiler Collection)
 * **Công cụ Profiling:** Valgrind (Bộ công cụ Memcheck)
