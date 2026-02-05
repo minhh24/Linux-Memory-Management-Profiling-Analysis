@@ -1,0 +1,54 @@
+desc: (none)
+cmd: ./missif.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=162359
+mem_heap_B=400000
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1962688
+mem_heap_B=401024
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1965664
+mem_heap_B=401024
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=peak
+n2: 401024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 400000 0x1091CC: main (in /home/pc30/Downloads/massif/missif/missif.out)
+ n0: 1024 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=1965664
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1968368
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

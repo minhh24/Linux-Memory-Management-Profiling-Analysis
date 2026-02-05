@@ -1,0 +1,18 @@
+cài đặt
+sudo apt update
+sudo apt install valgrind
+sudo apt install massif-visualizer
+
+valgrind --version
+
+
+chạy valgind massif
+valgrind --tool=massif ./my_program
+
+Nếu muốn chỉ định tên tệp xuất, có thể dùng tùy chọn --massif-out-file:
+valgrind --tool=massif --massif-out-file=massif.out ./my_program
+
+
+Sau khi chạy lệnh trên, mở massif-visualizer để xem kết quả:
+massif-visualizer massif.out
+
