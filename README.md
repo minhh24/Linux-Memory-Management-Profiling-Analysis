@@ -20,6 +20,10 @@ Mục tiêu cốt lõi là minh họa tầm quan trọng sống còn của việ
 ## Yêu cầu cài đặt
 Đảm bảo máy tính Linux đã được cài đặt trình biên dịch gcc và công cụ valgrind. Nếu chưa, hãy chạy các lệnh sau trên terminal:
 
+## Video tham khảo
+https://www.youtube.com/watch?v=aMSm7skbP5A
+
+
 ```bash
 sudo apt-get update
 sudo apt-get install gcc valgrind
